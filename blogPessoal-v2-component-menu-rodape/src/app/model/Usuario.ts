@@ -1,6 +1,7 @@
-import { Postagem } from "./postagem"
+import { Postagem } from "./Postagem"
 
-export class Usuario {
+export class Usuario{
+
     public idUsuario: number
     public nome: string
     public email: string
