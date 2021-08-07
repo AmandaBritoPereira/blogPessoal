@@ -12,21 +12,21 @@
 
                     <!--Cadastro senha do usuário-->
                     <div class="form-group">
-                        <label for="usuario">Usuário</label>
-                        <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu usuário">
+                        <label for="email">Email</label>
+                        <input [(ngModel)]='classeUsuarioLogin.email' class="form-control" type="text" name="email" id="email" placeholder="Seu email">
                     </div>
                     <!--/Cadastro senha do usuário-->
 
                     <!--Campo senha-->
                     <div class="form-group">
                         <label for="senha">Senha</label>
-                        <input class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
+                        <input [(ngModel)]='classeUsuarioLogin.senha' class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
                     </div>
                     <!--/Campo senha-->
 
                     <!--Botão entrar-->
                     <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn-success">Entrar</button>
+                        <button type="submit" class="btn btn-success" (click)='entrar()'>Entrar</button>
                     </div>
                     <!--/Botão entrar-->
 
@@ -36,7 +36,7 @@
 
                     <!--Opção para ser direcionado(a) -->
                     <p class="text-center">
-                        Não tem uma conta? <a href="">Cadastre-se</a>
+                        Não tem uma conta? <a routerLink='/cadastrar'>Cadastre-se</a>
                     </p>
                     <!--/Opção para ser direcionado(a) -->
                     
