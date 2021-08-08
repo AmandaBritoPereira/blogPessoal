@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+html {
+    /* >>> Movimento de descer dentro do site de forma suave*/
+    scroll-behavior: smooth;
+    /* <<< Movimento de descer dentro do site de forma suave*/
+}

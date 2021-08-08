@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'blogPessoal'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('blogPessoal');
+    expect(app.title).toEqual('blogPessoal'); //erro devido retirada do HelloWord
   });
 
   it('should render title', () => {

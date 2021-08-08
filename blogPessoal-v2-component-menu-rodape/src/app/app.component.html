@@ -1,1 +1,7 @@
-<router-outlet></router-outlet>
+<app-menu *ngIf='auth.logado()'></app-menu>
+
+<!-- Permite deixar rota da url dinâmica -->
+<router-outlet></router-outlet> 
+<!--/Permite deixar rota da url dinâmica -->
+
+<app-rodape *ngIf='auth.logado()'></app-rodape>
