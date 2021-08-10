@@ -5,3 +5,11 @@ html {
     scroll-behavior: smooth;
     /* <<< Movimento de descer dentro do site de forma suave*/
 }
+
+.fs-54 {
+    font-size: 54pt;
+}
+
+.fs-18 {
+    font-size: 18pt;
+}
